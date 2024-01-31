@@ -28,7 +28,7 @@ class Phonebook extends Component {
                     <Form className={css.form} autoComplete='off'>
                         <label htmlFor="Name">
                             Name
-                            <Field className={css.input_name} type="text" name="name" required />
+                            <Field className={css.input_name} type="text" placeholder="Enter name" name="name" required />
                             <ErrorMessage className={css.input_error} name="name" component="div"/>
                         </label>
                         <label htmlFor="number">
